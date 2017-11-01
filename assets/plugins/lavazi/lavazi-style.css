@@ -1,0 +1,83 @@
+@charset "utf-8";
+body {
+	margin: 0;
+	background: #eee;
+}
+a {
+	text-decoration: none;
+}
+h1 {
+	font: 400 40px 'ubuntu condensed', sans-serif;
+	color: #34495e;
+	text-align: center;
+	margin: 0;
+	padding: 40px;
+}
+nav {
+	background: #34495e;
+}
+nav ul {
+	/*padding: 0 ;*/
+	padding: 0px 10%;
+	margin: 0;
+	list-style: none;
+}
+nav>ul>li {
+	position: relative;
+	float: left;
+}
+nav>ul>li>a {
+	display: block;
+	padding: 15px 20px;
+	color: #fff;
+	font: 400 15px 'ubuntu condensed', sans-serif;
+	transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+}
+nav>ul ul {
+	position: absolute;
+	left: 0;
+	top: 80%;
+	opacity: 0;
+	visibility: hidden;
+	width: 170px;
+	transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+}
+nav>ul>li:hover ul {
+	opacity: 1;
+	visibility: visible;
+	top: 100%;
+	padding-top: 10px;
+	z-index: 999999;
+}
+nav>ul ul a {
+	display: block;
+	border-bottom: 1px solid #bbb;
+	color: #222;
+	background: #ddd;
+	padding: 15px 5px;
+	font: 400 15px 'ubuntu condensed', sans-serif;
+}
+nav>ul ul li:last-child a {
+	border: none;
+}
+nav>ul ul li:first-child a{
+	position:relative;
+}
+nav>ul ul li:first-child a:after {
+	bottom: 100%;
+	left: 10%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #ddd;
+	border-width: 7px;
+	margin-left: -7px;
+}

@@ -1,0 +1,7 @@
+[17-Aug-2017 22:37:36 America/Chicago] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 130968 bytes) in /home/inovasikotabogor/public_html/system/libraries/Form_validation.php on line 14
+[18-Aug-2017 02:23:54 America/Chicago] PHP Fatal error:  Call to a member function num_rows() on null in /home/inovasikotabogor/public_html/application/views/admin/galeri/index.php on line 46
+[18-Aug-2017 02:24:53 America/Chicago] PHP Fatal error:  Call to a member function num_rows() on null in /home/inovasikotabogor/public_html/application/views/admin/galeri/index.php on line 46
+[18-Aug-2017 02:59:49 America/Chicago] PHP Fatal error:  Call to a member function num_rows() on null in /home/inovasikotabogor/public_html/application/views/admin/galeri/index.php on line 46
+[18-Aug-2017 03:11:54 America/Chicago] PHP Fatal error:  Call to a member function num_rows() on null in /home/inovasikotabogor/public_html/application/views/admin/galeri/index.php on line 46
+[21-Aug-2017 00:59:59 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/inovasikotabogor/public_html/application/controllers/adminweb.php on line 31
+[27-Sep-2017 21:15:22 America/Chicago] PHP Fatal error:  Call to a member function num_rows() on null in /home/inovasikotabogor/public_html/application/views/admin/galeri/index.php on line 46
